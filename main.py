@@ -5,8 +5,8 @@ NUMBERS_ROWS = 6
 import openai
 import telebot
 
-openai.api_key = "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"
-bot = telebot.TeleBot('6066410639:AAGqaKGsHU6w0PcUCMrY80SSaR4_7sYlOeo')
+openai.api_key = ""
+bot = telebot.TeleBot('')
 
 if not os.path.exists("users"):
     os.mkdir("users")
